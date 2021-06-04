@@ -1,7 +1,7 @@
 {
   "name": "Start on Heroku: Node.js",
-  "description": "Fig",
-  "repository": "https://github.com/heroku/node-js-getting-started",
+  "description": "Fib calculator",
+  "repository": "https://github.com/bennydean/fibonacci",
   "keywords": ["node", "express", "heroku"],
   "image": "heroku/nodejs"
 }

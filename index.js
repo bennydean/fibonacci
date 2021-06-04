@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 // TODO: Add better error handling
 app.get("/:id", (req, res) => {
   const fibNum = req.params.id
-  res.status(200).send(JSON.stringify({ NthValue: fib(fibNum) }));
+  res.status(200).send(JSON.stringify({ Fn: fib(fibNum) }));
 });
 
 app.listen(port, () => {

@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/bennydean/fibonacci.git"
   },
+  "dependencies": {
+    "express": "^4.15.2"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {

@@ -8,12 +8,9 @@ function fib(n) {
   if(isNaN(n)){
     return "Bad Value"
   }
-  let [a, b] = [0, 1];
-  while (n-- > 0) {
-    [a, b] = [b, a + b];
+
+  return n < 2 ? n : fib(n - 1) + fib(n - 2);
   }
-  return b;
-}
 
 app.get("/", (req, res) => {
   res.status(200).send("Provide Route parameter to receive the nth value in a Fibonacci sequence. ie: {URL}/5");
